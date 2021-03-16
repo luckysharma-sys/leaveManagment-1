@@ -1,0 +1,91 @@
+body {
+  background-color: whitesmoke;
+  background-attachment: fixed;
+}
+div #nav {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 90vh;
+  width: 55px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 7px 7px 5px grey;
+}
+ul {
+  line-height: 360%;
+  list-style-type: none;
+  position: relative;
+  right: 25px;
+}
+ul :first-child :hover{
+color: black;
+}
+li :hover {
+  font-size: 20px;
+  color: rgb(116, 115, 115);
+}
+div #card {
+  height: 90vh;
+  width: 1200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 7px 7px 5px grey;
+}
+div #main {
+  position: relative;
+  top: 25px;
+}
+div .dropdown-menu {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 12px 12px 5px grey;
+}
+a {
+  font-size: 20px;
+}
+div #leave {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  animation-name: leave;
+  animation-duration: 10s infinite linear;
+}
+@keyframes leave {
+  0% {
+    color: brown;
+  }
+  20% {
+    color: rgb(44, 22, 22);
+  }
+  40% {
+    color: rgb(247, 82, 82);
+  }
+  60% {
+    color: rgb(22, 5, 5);
+  }
+  80% {
+    color: rgb(85, 53, 53);
+  }
+  100% {
+    color: black;
+  }
+}
+#avatar {
+  position: relative;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  top: 2px;
+  right: 15px;
+}
+#logout {
+  position: relative;
+  bottom: 30px;
+  height: 30px;
+  float: right;
+  margin-right: 20px;
+}

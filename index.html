@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>LeaveManagmentSystem</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -16,7 +16,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <!-- Optional JavaScript -->
@@ -36,82 +36,19 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-      crossorigin="anonymous"
-    />
-    <div class="container-fluid">
-      <div class="row">
-        <!-- navigation bar -->
-        <div
-          style="
-            background-color: rgb(157, 157, 243);
-            height: 70px;
-            width: 100%;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
-          "
-        >
-          <b
-            style="
-              position: relative;
-              color: white;
-              top: 12px;
-              left: 50px;
-              font-size: 25px;
-            "
-          >
-            <i class="fa fa-bars" type="button" style="color: black"></i>
-            &nbsp; &nbsp; ELMS</b
-          ><body>
-          </body>
-          <i
-            class="fa fa-bell"
-            type="button"
-            style="
-              color: rgb(253, 253, 253);
-              float: right;
-              position: relative;
-              top: 20px;
-              right: 30px;
-              font-size: 25px;
-            "
-          >
-        </i>
-        </div>
-        <!-- navigation bar -->
+    <div class="dropdown">
+      <img
+        data-toggle="dropdown"
+        id="login"
+        src="https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png"
+      />
+      <div class="dropdown-menu" style="text-align: center">
+        <a class="dropdown-item" href="./php/login.php">Login</a>
+        <a class="dropdown-item" href="./php/signup.php">signUp</a>
       </div>
-      <div class="row">
-          <div
-            class="row col-sm-2"
-            style="
-              height: 89vh;
-              width: 100%;
-              background-color: rgb(158, 154, 154);
-              display: flex;
-            "
-          >
-        <div style="text-align: center; position: relative;">
-          <ul>
-            <li>
-              <button class="btn btn-light" type="button">Dashbord</button>
-            <li>
-              photos
-            </li>
-            <li>
-              Data
-            </li>
-            <li>
-              Storage
-            </li>
-          </ul>
-        </div>
-        </div>
-        </div>
-        <div class="col-sm-"></div>
-      </div>
+    </div>
+    <div>
+      <h1 class="welPage">welcome to Leave Management System</h1>
     </div>
   </body>
 </html>

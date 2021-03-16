@@ -1,0 +1,16 @@
+body {
+  background-color: whitesmoke;
+}
+.welPage {
+  text-align: center;
+}
+#login {
+  float: right;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+#login:hover {
+  height: 48px;
+  width: 48px;
+}
