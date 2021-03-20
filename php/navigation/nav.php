@@ -43,26 +43,29 @@ header('location: ../index.html');
       crossorigin="anonymous"
     ></script>
 
-
+<!-- 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
     
 </head>
 <body>
 <div id="nav">
+
     <ul>
         <li>
             <div class="dropdown">
                     <img data-toggle="dropdown" src="https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_user-512.png" alt="Avatar" id="avatar">
-            <div class="dropdown-menu" style="text-align: center; width:300px;">
-                    <a>profile</a>
-                    <div class="dropdown-divider" ></div>
-                    <a class="dropdown-item" href="#"><?php
-                        echo $_SESSION['uname']."</br> ";
-                        echo $_SESSION['email'];
-                    ?></a>
-                    <a href="profile.php">view profile</a> 
+                <div class="dropdown-menu" style="text-align: center; width:300px;">
+                        <a>profile</a>
+                        <div class="dropdown-divider" ></div>
+                        <a class="dropdown-item" href="#"><?php
+                            echo $_SESSION['uname']."</br> ";
+                            echo $_SESSION['email'];
+                        ?></a>
+                        <form action="../php/content/contentItem.php">
+                        <input type="submit" value="view profile" name="profile"><br>
+                        </form>
                 </div>
             </div>   
         </li>

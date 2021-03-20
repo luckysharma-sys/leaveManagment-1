@@ -55,15 +55,14 @@ header('location: ../index.html');
     ></script>
 
     <div class="container-fluid" id="main">
-            <div class="card" id="card">
-              <div id="leave">
-                Leave Managment System 
-              </div>
-              <div>
-                  <?php
-                  include "../php/profile.php";
-                  ?>
-            </div>
+        <div class="card" id="card">
+
+          <div id="leave">
+            Leave Managment System 
+          </div>
+          <?php include "contentItem.php" ?>
         </div>
+    </div>
+
   </body>
 </html>

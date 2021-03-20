@@ -67,23 +67,14 @@ header('location: ../index.html');
         <!-- navigation bar -->
 
         <!-- containt -->
-        <div class="col-sm-">
+        <div class="col-sm-11">
           <?php 
             include "content/content.php";
           ?>
-          <!-- <div class="container-fluid" id="main">
-            <div class="card" id="card">
-              <div id="leave">
-                Leave Managment System 
-              </div>
-                <form action="" method="post">
-                  <button name="logout" type="submit" class="btn btn-primary" style=" position:relative; float:right; border: 1px solid black; right: 2%; top: 1300%">LogOut</button>
-                </form>
-              </div>
-            </div>
-        </div> -->
+        </div>
+        <!-- containt -->
+
       </div>
-      <!-- containt -->
     </div>
   </body>
 </html>

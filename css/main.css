@@ -48,28 +48,29 @@ a {
 div #leave {
   text-align: center;
   font-size: 30px;
-  color: black;
+  color: rgb(173, 172, 172);;
   animation-name: leave;
-  animation-duration: 10s infinite linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 @keyframes leave {
   0% {
-    color: brown;
+    color: rgb(173, 172, 172);
   }
   20% {
-    color: rgb(44, 22, 22);
+    color: rgb(121, 119, 119);
   }
   40% {
-    color: rgb(247, 82, 82);
+    color: rgb(95, 93, 93);
   }
   60% {
-    color: rgb(22, 5, 5);
+    color: rgb(46, 45, 45);
   }
   80% {
-    color: rgb(85, 53, 53);
+    color: rgb(27, 27, 27);
   }
   100% {
-    color: black;
+    color: rgb(7, 7, 7);
   }
 }
 #avatar {
